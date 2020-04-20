@@ -1,27 +1,35 @@
 body {
     margin: 0 auto;
     width: 850px;
-
 }
-
+TITLE {
+    
+    justify-content: center;
+    flex-direction: initial;
+    
+}
 main {
 
     margin: 0 auto;
     height: 450px;
-    background-image: url(../img/nasa.jpg);
+    background-image: url(Galaxy.jpg);
     color: white
  
 }
 
 section {
+    background-color: lightgray;
+    padding-top: 20px;
+    padding-top: 20px;
     display: flex;
     height: 324px;
-    flex-direction: row;
-    justify-content: space space-between
+    flex-direction :row;
+    justify-content: space-between
+    
 
 }
 article {
     width: 270px;
     height: 374px;
-    background-color: grey
+    background-color: lightgray
 }
